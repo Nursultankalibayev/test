@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="689c0001-28f8-4137-a410-7ebeb3556706" name="195.210.46.35" url="http://195.210.46.35">
+        <fileTransfer host="195.210.46.35" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8541c142-5892-4f14-b8f6-0f1d7563fde5" name="tausamaly" url="http://37.143.14.213">
+        <fileTransfer host="37.143.14.213" port="22" rootFolder="/var/www/bgpro/data/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0d394862-9391-49e7-84c4-2089dfac8461" name="ihc" url="http://37.143.15.71">
+        <fileTransfer host="37.143.15.71" port="22" rootFolder="/var/www/bgmedia/data/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
